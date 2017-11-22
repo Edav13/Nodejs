@@ -8,7 +8,7 @@ pub
 	.once('myevent', function(message){
 		console.log('Se emite la primera vez: ' + message);
 	})
-	
+
 pub.emit('myevent', 'Soy un emisor de eventos');
 pub.emit('myevent', 'Volviendo a emitir');
 pub.removeAllListeners('myevent');
