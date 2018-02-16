@@ -1,7 +1,7 @@
 'use strict'
 
 var myData = require('./my-data');
-var Clock = require('./clock-es5');
+var Clock = require('./clock-es6');
 var cucu = new Clock();
 
 console.log(myData);
